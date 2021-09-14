@@ -33,7 +33,7 @@ func main() {
 
 	engine := gin.Default()
 
-	engine.GET("/api/v1/users/:id/board",func(c *gin.Context){
+	engine.GET("/api/v1/users/:id/boards",func(c *gin.Context){
 
 	})
 }
